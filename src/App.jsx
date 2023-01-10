@@ -1,14 +1,11 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
 import Navbar from './components/Navbar';
+import Hero from './components/Hero';
 
-function App() {
-  const [count, setCount] = useState(0);
-
+const App = () => {
   return (
     <div className="App">
       <Navbar />
-      <h1 className="text-orange-700">Blessed pillars foundation</h1>
+      <Hero/>
     </div>
   );
 }
