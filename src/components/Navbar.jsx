@@ -4,7 +4,7 @@ import { navMenu } from '../data/navbar_data';
 const Navbar = () => {
   return (
     <div className="flex items-center justify-between z-50 h-[80px] bg-slate-300 px-[5rem]">
-      <p className='font-medium leading-tight'>Balinda <br /> Chidren's <br /> Foundation</p>
+      <p className='font-semibold leading-[1.1rem]'>Balinda <br /> <span>Chidren's Foundation</span></p>
       <div className="flex w-[500px] items-center justify-between">
         <ul className="flex w-[400px] items-center justify-between">
           {navMenu.map((item) => {
