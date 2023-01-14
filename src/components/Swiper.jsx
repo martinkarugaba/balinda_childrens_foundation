@@ -9,13 +9,14 @@ const Swiper = () => {
     infinite: true,
     fade: true,
     autoplay: true,
-    speed: 3200,
+    autoplaySpeed: 5000,
+    speed: 4000,
     slidesToShow: 1,
     slidesToScroll: 1,
     dots: true,
   };
   return (
-    <div className="border-1 relative h-[100%] border-gray-600">
+    <div className="relative h-[100%]">
       <Slider {...settings}>
         <div className="h-[100vh] bg-[url('img/hero/girl_leaning_against_wall.JPG')] bg-cover"></div>
         <div className="h-[100vh] bg-[url('img/hero/girl_carrying_jerrycan.JPG')] bg-cover"></div>
