@@ -4,7 +4,7 @@ import Slider  from './Swiper';
 
 const Hero = () => {
   return (
-    <div className="-mt-[80px] w-[100vw] -z-1">
+    <div className="w-[100vw] -z-1">
       <Slider />
     </div>
   );
