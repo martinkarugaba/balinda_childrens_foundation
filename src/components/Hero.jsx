@@ -10,13 +10,14 @@ const Hero = () => {
           </p>
           <div className="h-[2px] w-[70px] bg-white"></div>
         </div>
-        <h1 className="font-primary text-[7.5rem] font-bold leading-[9rem]">
+        <h1 className="font-primary text-[7.5rem] text-slate-100 font-bold leading-[9rem]">
           Let's become a <br /> helping hand
         </h1>
-        <p className="mt-[2.5rem] w-[70ch] font-primary text-[1.25rem]">
+        <p className="mt-[2.2rem] w-[70ch] font-primary text-[1.25rem]">
           "The most important thing is that every child should be able
-          to enjoy their childhood." - Nelson Mandela
+          to enjoy their childhood." <br /> - Nelson Mandela
         </p>
+        <button className='px-8 py-4 bg-primary hover:bg-secondary rounded-lg mt-[2.2rem] font-secondary text-xl'>Learn more</button>
       </div>
     </div>
   );

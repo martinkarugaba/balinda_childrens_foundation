@@ -4,7 +4,7 @@ import NavTopBar from './NavTopBar';
 
 const Navbar = () => {
   return (
-    <section>
+    <section className='font-secondary'>
       <NavTopBar />
       {/* navbar */}
       <div className="flex h-[80px] w-[100%] items-center justify-between bg-transparent px-[8rem] py-[3rem]">
@@ -16,7 +16,7 @@ const Navbar = () => {
         </p>
         {/* nav-menu */}
         <div className="flex w-auto items-center justify-center gap-x-4 text-sm font-semibold">
-          <ul className="flex w-auto items-center justify-center gap-x-4">
+          <ul className="flex w-auto items-center justify-center gap-x-4 text-base">
             {navMenu.map((item) => {
               const { id, title, src } = item;
               return (

@@ -11,7 +11,7 @@ module.exports = {
         primary: 'rgb(56 189 248)', // bg-sky-400
         secondary: 'rgb(244 63 94)', // bg-rose-500
         'off-white': '#fafafa',
-        'faded-black': 'rgba(0, 0, 0, 0.4)',
+        'faded-black': 'rgba(0, 0, 0, 0.5)',
       },
       backgroundImage: {
         'hero-background':
