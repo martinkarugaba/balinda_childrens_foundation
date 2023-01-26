@@ -4,9 +4,10 @@ import Hero from './components/Hero';
 const App = () => {
   return (
     <div className="App">
-      <Hero/>
+      <Navbar />
+      <Hero />
     </div>
   );
-}
+};
 
 export default App;

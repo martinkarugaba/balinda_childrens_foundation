@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <section>
       <NavTopBar />
-      <div className="absolute z-50 flex h-[80px] w-[100%] items-center justify-between bg-transparent px-[5rem]">
+      <div className="flex h-[80px] w-[100%] items-center justify-between bg-transparent px-[8rem]">
         <p className="font-semibold leading-[1.1rem]">
           Balinda <br /> <span>Chidren's Foundation</span>
         </p>

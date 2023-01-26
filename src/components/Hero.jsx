@@ -1,12 +1,10 @@
 import React from 'react';
 // Import Swiper styles
 import Slider from './Swiper';
-import Navbar from './Navbar';
 
 const Hero = () => {
   return (
     <div className="z-0">
-      <Navbar />
       <Slider />
     </div>
   );

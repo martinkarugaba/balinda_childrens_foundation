@@ -2,10 +2,15 @@
 module.exports = {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        manrope: ['Manrope', 'sans-serif'],
+      },
+      colors: {
+        primary:'#55C1BC',
+      }
+    },
   },
-  fontFamily: {
-    manrope: ['Manrope', 'sans-serif'],
-  },
+
   plugins: [],
 };
