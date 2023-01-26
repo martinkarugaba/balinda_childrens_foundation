@@ -5,7 +5,7 @@ import Navbar from './Navbar';
 
 const Hero = () => {
   return (
-    <div className="z-0 w-[100vw]">
+    <div className="z-0">
       <Navbar />
       <Slider />
     </div>

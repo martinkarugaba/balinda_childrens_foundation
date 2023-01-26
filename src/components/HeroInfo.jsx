@@ -4,7 +4,7 @@ const HeroInfo = () => {
   return (
     <div>
       <section className="absolute top-0 left-0 flex h-[100%] w-[100%] items-end justify-center py-[8rem] pt-[10rem] pb-[5rem]">
-        <div className="flex h-[320px] flex-col items-center justify-between border-2">
+        <div className="flex h-[320px] flex-col items-center justify-between">
           <h1 className="text-center text-[4rem] font-bold uppercase  leading-[4rem] text-white drop-shadow-md">
             support an orphan, <br /> achieve a bright
             future
