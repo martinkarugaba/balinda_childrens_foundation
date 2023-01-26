@@ -7,10 +7,11 @@ module.exports = {
         manrope: ['Manrope', 'sans-serif'],
       },
       colors: {
-        primary:'#55C1BC',
-      }
+        primary: '#55C1BC',
+        secondary: '#EE666F',
+        'off-white':'#fafafa'
+      },
     },
   },
-
   plugins: [],
 };
