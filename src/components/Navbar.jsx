@@ -25,10 +25,10 @@ const Navbar = () => {
                   <a href={src}>{title}</a>
                 </li>
               );
-            })}
+            })} 
           </ul>
         </div>
-        <button className="cursor-pointer rounded-md bg-rose-500 px-8 py-3 font-semibold text-white">
+        <button className="cursor-pointer rounded-md bg-secondary px-8 py-3 font-semibold text-white">
           Donate
         </button>
       </div>

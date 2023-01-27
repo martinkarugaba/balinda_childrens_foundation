@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <>
       <section className="h-auto bg-hero-background bg-top bg-cover">
-        <div className="z-20 bg-faded-orange px-[8rem] py-[10rem] text-white">
+        <div className="z-20 bg-faded-black px-[8rem] py-[10rem] text-white">
           <div className="flex items-center justify-start gap-x-4">
             <p className="font-primary text-off-white text-[1.25rem]">
               Start donating now
