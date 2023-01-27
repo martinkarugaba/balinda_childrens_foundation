@@ -12,6 +12,7 @@ module.exports = {
         secondary: '#EE666F', // bg-rose-500
         'off-white': '#fafafa',
         'faded-black': 'rgba(0, 0, 0, 0.5)',
+        'faded-orange':'rgba(146, 64, 14,0.5)'
       },
       backgroundImage: {
         'hero-background':
