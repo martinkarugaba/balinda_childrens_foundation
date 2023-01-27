@@ -1,15 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import Banner from './components/Banner';
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <div className="App">
-      <h1>Blessed pillars foundation</h1>
+    <div className="app">
+      <Navbar />
+      <Hero />
+      {/*<Banner />*/}
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
