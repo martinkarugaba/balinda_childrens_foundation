@@ -1,29 +1,36 @@
 import React from 'react';
 import { AiFillPhone } from 'react-icons/ai';
-import { MdEmail } from 'react-icons/md';
-import { FaFacebookF, FaTwitter, FaHome } from 'react-icons/fa';
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaHome,
+  FaPhone,
+  FaEnvelope,
+} from 'react-icons/fa';
 import { GrYoutube } from 'react-icons/gr';
 
 const NavTopBar = () => {
   return (
-    <section className="flex items-center justify-between px-[8rem] py-4 bg-sky-400 text-base text-white font-normal">
+    <section className="flex items-center justify-between bg-sky-400 px-[8rem] py-4 text-base font-normal text-white">
       {/* address */}
       <div className="flex items-center justify-center gap-x-4">
-        <div className="flex justify-center items-center gap-x-3">
-          <AiFillPhone />
+        <div className="flex items-center justify-center gap-x-3">
+          <FaPhone size={15} />
           <p>(+256) 123-456-123</p>
         </div>
-        <div className="flex justify-center items-center gap-x-3">
-          <MdEmail />
+        <div className="h-[15px] w-[1px] bg-off-white"></div>
+        <div className="flex items-center justify-center gap-x-3">
+          <FaEnvelope size={16} />
           <p>email@example.com</p>
         </div>
-        <div className="flex justify-center items-center gap-x-3">
-          <FaHome />
+        <div className="h-[15px] w-[1px] bg-off-white"></div>
+        <div className="flex items-center justify-center gap-x-3">
+          <FaHome size={18} />
           <p>Dewi Street. 3456, Kampala, Uganda</p>
         </div>
       </div>
       {/* icons */}
-      <div className='flex justify-center items-center gap-x-6'>
+      <div className="flex items-center justify-center gap-x-6">
         <FaFacebookF />
         <FaTwitter />
         <GrYoutube />
