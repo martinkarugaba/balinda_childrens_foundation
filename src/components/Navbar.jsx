@@ -1,6 +1,8 @@
 import React from 'react';
 import { navMenu } from '../data/navbar_data';
 import NavTopBar from './NavTopBar';
+import { NavLink } from 'react-router-dom';
+import '../styles/navbar.css';
 
 const Navbar = () => {
   return (
@@ -16,19 +18,20 @@ const Navbar = () => {
         <div className="flex w-auto items-center justify-center gap-x-4 text-sm font-semibold">
           <ul className="flex w-auto items-center justify-center gap-x-4 text-base text-[#212121]">
             {navMenu.map((item) => {
-              const { id, title, src } = item;
+              const { id, title, url } = item;
               return (
-                <li
+                <NavLink
                   key={id}
-                  className="cursor-pointer rounded-xl px-4 py-3 capitalize transition duration-300 ease-in hover:bg-sky-400 hover:text-white"
+                  to={url}
+                  className="cursor-pointer rounded-xl px-5 py-3 capitalize transition duration-300 ease-in hover:bg-sky-400 hover:text-white"
                 >
-                  <a href={src}>{title}</a>
-                </li>
+                  {title}
+                </NavLink>
               );
             })}
           </ul>
         </div>
-        <button className="cursor-pointer rounded-md bg-rose-500 px-8 py-3 font-semibold text-white">
+        <button className="cursor-pointer rounded-md bg-secondary px-8 py-3 font-semibold text-white">
           Donate
         </button>
       </div>
