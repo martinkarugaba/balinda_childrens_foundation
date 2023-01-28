@@ -2,26 +2,26 @@ export const navMenu = [
   {
     id: 0,
     title: 'home',
-    src: '/home',
+    url: '/',
   },
   {
     id: 1,
     title: 'about us',
-    src: '/about',
+    url: '/about',
   },
   {
     id: 2,
     title: 'what we do',
-    src: '/what_we_do',
+    url: '/what_we_do',
   },
   {
     id: 3,
     title: 'sponsorship',
-    src: '/sponsorship',
+    url: '/sponsorship',
   },
   {
     id: 4,
     title: 'contact us',
-    src: '/contact',
+    url: '/contact',
   },
 ];
