@@ -12,11 +12,12 @@ module.exports = {
         secondary1: '#EB5426',
         secondary: '#EE666F', // bg-rose-500
         'off-white': '#fafafa',
-        'light-grey': '#EFF3F2',
+        'light-grey': '#EFF3F2', // #EFF3F2
+        'faded-black': 'rgba(12, 12, 13, 0.6)',
         'text-black': 'rgb(43, 47, 47)',
-        
+        'text-grey': '#7b8282',
+
         //...
-        'faded-black': 'rgba(12, 12, 13, 0.7)',
         'faded-violet': 'rgba(34, 26, 30,0.7)',
         'faded-orange': 'rgba(146, 64, 14,0.5)',
         'faded-grey': 'rgba(43, 47, 47,0.7)',

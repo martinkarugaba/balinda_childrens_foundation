@@ -9,7 +9,7 @@ const Banner = () => {
         return (
           <div
             key={id}
-            className={`bg-${backgroundColor} flex-1 font-secondary rounded-lg cursor-pointer p-[4rem]`}
+            className={`bg-${backgroundColor} flex-1 shadow-xl font-secondary rounded-lg cursor-pointer px-[3.5rem] py-[4rem]`}
           >
             <div className="text-lg">{icon}</div>
             <p className='font-semibold mt-4 text-base capitalize'>{heading}</p>

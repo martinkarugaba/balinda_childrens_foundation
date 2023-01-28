@@ -4,17 +4,17 @@ const Hero = () => {
   return (
     <>
       <section className="h-auto bg-hero-background bg-top bg-cover">
-        <div className="z-20 bg-faded-black px-[8rem] py-[10rem] text-white">
+        <div className="z-20 bg-faded-black px-[8rem] py-[10rem]">
           <div className="flex items-center justify-start gap-x-4">
             <p className="font-primary text-off-white text-[1.25rem]">
               Start donating now
             </p>
             <div className="h-[3px] w-[100px] bg-white"></div>
           </div>
-          <h1 className="font-primary text-[7rem] mt-[2rem] font-bold leading-[7rem] text-off-white ">
+          <h1 className="font-primary text-[7rem] drop-shadow-2xl leading-[8rem] mt-[2rem] font-bold text-off-white ">
             Let's become a <br /> helping hand
           </h1>
-          <p className='font-primary text-off-white text-[1.25rem] leading-1 mt-[3rem]'>
+          <p className='font-primary text-off-white text-xl leading-8 mt-[2.5rem]'>
             "The most important thing is that every child should be
             able to enjoy their childhood." <br /> - Nelson Mandela
           </p>

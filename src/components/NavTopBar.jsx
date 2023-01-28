@@ -11,7 +11,7 @@ import { GrYoutube } from 'react-icons/gr';
 
 const NavTopBar = () => {
   return (
-    <section className="flex items-center justify-between bg-sky-400 px-[8rem] py-4 text-base font-normal text-white">
+    <section className="flex items-center justify-between bg-sky-400 px-[8rem] py-3 text-base font-normal text-white">
       {/* address */}
       <div className="flex items-center justify-center gap-x-4">
         <div className="flex items-center justify-center gap-x-3">
