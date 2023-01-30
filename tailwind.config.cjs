@@ -9,7 +9,8 @@ module.exports = {
       },
       colors: {
         primary: 'rgb(56 189 248)', // bg-sky-400
-        secondary1: '#EB5426',
+        //primary: 'rgb(250 204 21)',
+        //secondary: '#F4A31E',
         secondary: '#EE666F', // bg-rose-500
         'off-white': '#fafafa',
         'light-grey': '#EFF3F2', // #EFF3F2
