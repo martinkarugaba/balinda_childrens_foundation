@@ -3,7 +3,7 @@ import React from 'react';
 const WelcomeToBCF = () => {
   return (
     <>
-      <section className="-mt-[8.8rem] bg-light-grey px-[8rem] pb-[15rem] pt-[15rem]">
+      <section className="-mt-[10.75rem] bg-slate-100 px-[8rem] pb-[15rem] pt-[15rem]">
         <img className='absolute h-[130px] left-0' src="src/assets/img/love.png" alt="love" />
         <div className="flex items-center justify-center gap-x-4">
           <p className="text-center font-primary text-xl font-bold leading-[30px] text-primary">

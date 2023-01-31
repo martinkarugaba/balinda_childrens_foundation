@@ -1,7 +1,7 @@
-import box from '../assets/icons/family.png';
+import box from '../assets/icons/give.png';
 import heartbeat from '../assets/icons/heartbeat.png';
 import knowledge from '../assets/icons/magistrate.png';
-import suitcase from '../assets/icons/growing.png';
+import suitcase from '../assets/icons/money-management.png';
 
 export const cardData = [
   {
