@@ -15,7 +15,7 @@ module.exports = {
         'off-white': '#fafafa',
         //'light-grey': '#EFF3F2', // #EFF3F2
         'light-grey': '#ECEFF1',
-        'faded-black': 'rgba(12, 12, 13, 0.6)',
+        'faded-black': 'rgba(12, 12, 13, 0.7)',
         'text-black': 'rgb(43, 47, 47)',
         'text-grey': '#7b8282',
 
@@ -26,7 +26,7 @@ module.exports = {
       },
       backgroundImage: {
         'hero-background':
-          "url('src/assets/img/happy_children_cropped-min_01.jpeg')",
+          "url('/src/assets/img/child-not-happy-min.JPG')",
       },
       zIndex: {
         100: '100',
