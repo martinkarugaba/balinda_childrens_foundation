@@ -2,6 +2,8 @@ import React from 'react';
 import Hero from '../components/Hero';
 import Banner from '../components/Banner';
 import WelcomeToBCF from '../components/WelcomeToBCF';
+import Cards from '../components/Cards';
+import LatestCauses from '../components/LatestCauses';
 
 const Home = () => {
   return (
@@ -9,6 +11,8 @@ const Home = () => {
       <Hero />
       <Banner />
       <WelcomeToBCF />
+      <Cards />
+      <LatestCauses />  
     </>
   );
 };
