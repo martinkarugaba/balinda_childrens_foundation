@@ -17,7 +17,7 @@ const Navbar = () => {
             <p className="font-primary text-3xl font-bold tracking-[-1px]">
               Balinda
             </p>
-            <p className="-mt-[8px] font-secondary text-sm font-normal">
+            <p className="-mt-[8px] font-secondary text-sm font-medium">
               children's foundation
             </p>
           </div>
