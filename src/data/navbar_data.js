@@ -10,22 +10,22 @@ export const navMenu = [
     url: '/about',
   },
   {
-    id: 1,
+    id: 2,
     title: 'causes',
     url: '/causes',
   },
   {
-    id: 2,
+    id: 3,
     title: 'what we do',
     url: '/what_we_do',
   },
   {
-    id: 3,
+    id: 4,
     title: 'sponsorship',
     url: '/sponsorship',
   },
   {
-    id: 4,
+    id: 5,
     title: 'contact us',
     url: '/contact',
   },
