@@ -10,6 +10,11 @@ export const navMenu = [
     url: '/about',
   },
   {
+    id: 1,
+    title: 'causes',
+    url: '/causes',
+  },
+  {
     id: 2,
     title: 'what we do',
     url: '/what_we_do',

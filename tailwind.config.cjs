@@ -8,9 +8,9 @@ module.exports = {
         secondary: ['Barlow', 'sans-serif'],
       },
       colors: {
-        primary: 'rgb(56 189 248)', // bg-sky-400
-        //primary: 'rgb(250 204 21)',
-        //secondary: '#F4A31E',
+        //primary: 'rgb(56 189 248)', // bg-sky-400
+        primary: '#55C1BC',
+        //secondary: '#EF6C00',
         secondary: '#EE666F', // bg-rose-500
         'off-white': '#fafafa',
         //'light-grey': '#EFF3F2', // #EFF3F2

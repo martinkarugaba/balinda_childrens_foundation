@@ -37,7 +37,7 @@ const Navbar = () => {
                 <NavLink
                   key={id}
                   to={url}
-                  className="cursor-pointer rounded-xl px-6 py-3 capitalize transition duration-300 ease-in hover:bg-primary hover:text-off-white"
+                  className="cursor-pointer rounded-xl px-6 py-3 capitalize transition duration-300 ease-in hover:bg-primary hover:text-off-white active:bg-primary  "
                 >
                   {title}
                 </NavLink>
