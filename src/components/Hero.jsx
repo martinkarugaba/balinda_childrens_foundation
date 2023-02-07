@@ -13,7 +13,7 @@ const Hero = () => {
           </div>
           <h1 className="mt-[2rem] font-primary text-[7.5rem] font-bold leading-[7.125rem] tracking-[-7px] text-off-white drop-shadow-2xl ">
             Let's become{' '}
-            <span className=''>
+            <span className="">
               <br /> a helping hand
             </span>
           </h1>
@@ -21,7 +21,7 @@ const Hero = () => {
             "The most important thing is that every child should be
             able to enjoy their childhood." <br /> - Nelson Mandela
           </p>
-          <button className="mt-[2.2rem] rounded-lg bg-primary px-8 py-4 font-secondary text-xl font-normal text-off-white hover:bg-secondary">
+          <button className="mt-[2.2rem] rounded-lg bg-primary px-8 py-4 font-secondary text-xl font-normal text-off-white ease-in md:hover:bg-secondary md:hover:scale-110 md:transition md:duration-500">
             Learn more
           </button>
         </div>

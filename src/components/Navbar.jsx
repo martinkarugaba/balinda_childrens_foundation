@@ -10,14 +10,18 @@ const Navbar = () => {
     <section className="font-secondary">
       <NavTopBar />
       {/* navbar */}
-      <div className="flex h-[80px] w-[100%] items-center justify-between bg-transparent px-[5rem] py-[3rem]">
+      <div className="flex h-[80px] w-[100%] items-center justify-between bg-transparent px-[4rem] py-[3rem]">
         <div className="flex items-center justify-start border-secondary leading-10">
-          <img src={logo} className="h-[55px]" alt="logo" />
-          <div className="text-text-black">
-            <p className="font-primary text-3xl font-bold tracking-[-1px]">
+          <img
+            src={logo}
+            className="relative md:bottom-[2px] h-[55px]"
+            alt="logo"
+          />
+          <div className="relative md:bottom-[0px] text-text-black">
+            <p className="font-primary text-[2rem] font-medium tracking-[2px]">
               Balinda
             </p>
-            <p className="-mt-[8px] font-secondary text-sm font-medium">
+            <p className="-mt-[10px] font-secondary text-sm font-medium tracking-wider">
               children's foundation
             </p>
           </div>
@@ -31,7 +35,7 @@ const Navbar = () => {
                 <NavLink
                   key={id}
                   to={url}
-                  className="cursor-pointer rounded-xl px-6 py-3 capitalize transition duration-300 ease-in hover:bg-primary hover:text-off-white active:bg-primary  "
+                  className="cursor-pointer rounded-xl px-6 py-3 capitalize transition duration-300 ease-in hover:bg-primary hover:text-off-white active:bg-primary"
                 >
                   {title}
                 </NavLink>
@@ -39,7 +43,7 @@ const Navbar = () => {
             })}
           </ul>
         </div>
-        <button className="cursor-pointer rounded-xl bg-primary px-8 py-3 font-semibold text-white">
+        <button className="cursor-pointer rounded-lg bg-primary px-8 py-3 font-semibold text-white ease-in md:transition md:duration-300 md:hover:scale-110">
           Donate
         </button>
       </div>
