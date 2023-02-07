@@ -10,7 +10,7 @@ const Navbar = () => {
     <section className="font-secondary">
       <NavTopBar />
       {/* navbar */}
-      <div className="flex h-[80px] w-[100%] items-center justify-between bg-transparent px-[4rem] py-[3rem]">
+      <div className="flex h-[80px] w-[100%] items-center justify-between bg-transparent px-[5rem] py-[3rem]">
         <div className="flex items-center justify-start border-secondary leading-10">
           <img
             src={logo}
@@ -27,15 +27,15 @@ const Navbar = () => {
           </div>
         </div>
         {/* nav-menu */}
-        <div className="flex w-auto items-center justify-center gap-x-4 text-sm font-semibold">
-          <ul className="flex w-auto items-center justify-center gap-x-2 text-base text-[#212121]">
+        <div className="flex w-auto items-center justify-center gap-x-0 text-sm font-semibold">
+          <ul className="flex w-auto items-center justify-center gap-x-4 text-base text-text-black">
             {navMenu.map((item) => {
               const { id, title, url } = item;
               return (
                 <NavLink
                   key={id}
                   to={url}
-                  className="cursor-pointer rounded-xl px-6 py-3 capitalize transition duration-300 ease-in hover:bg-primary hover:text-off-white active:bg-primary"
+                  className="cursor-pointer rounded-xl px-4 py-3 capitalize transition duration-300 ease-in hover:bg-primary hover:text-off-white active:bg-primary"
                 >
                   {title}
                 </NavLink>
