@@ -1,6 +1,6 @@
-import box from '../assets/icons/supplies.png';
+import truck from '../assets/icons/truck.png';
 import heartbeat from '../assets/icons/heartbeat.png';
-import knowledge from '../assets/icons/graduated.png';
+import knowledge from '../assets/icons/open-book.png';
 import suitcase from '../assets/icons/money-management.png';
 
 export const cardData = [
@@ -20,7 +20,7 @@ export const cardData = [
   },
   {
     id: 2,
-    src: box,
+    src: truck,
     title: ['Poverty', 'Relief'],
     description:
       'We work towards alleviating poverty and improving the living conditions of children and their families.',
@@ -30,6 +30,6 @@ export const cardData = [
     src: suitcase,
     title: ['Income', 'generation'],
     description:
-      'We aim to empower children and their families by providing them with the tools and resources to generate sustainable income.',
+      'Our goal is to equip children and their families with the necessary tools and resources to create a steady source of income.',
   },
 ];
