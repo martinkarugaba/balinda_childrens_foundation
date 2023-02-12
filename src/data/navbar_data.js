@@ -11,16 +11,21 @@ export const navMenu = [
   },
   {
     id: 2,
+    title: 'causes',
+    url: '/causes',
+  },
+  {
+    id: 3,
     title: 'what we do',
     url: '/what_we_do',
   },
   {
-    id: 3,
+    id: 4,
     title: 'sponsorship',
     url: '/sponsorship',
   },
   {
-    id: 4,
+    id: 5,
     title: 'contact us',
     url: '/contact',
   },

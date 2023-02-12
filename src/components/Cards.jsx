@@ -10,13 +10,13 @@ const Cards = () => {
           return (
             <div
               key={id}
-              className="flex h-[450px] cursor-pointer flex-1 flex-col items-start justify-start gap-y-6 rounded-xl bg-white p-[3.125rem] shadow-md"
+              className="group flex h-[450px] flex-1 cursor-pointer flex-col items-start justify-start gap-y-6 rounded-xl bg-white p-[3.125rem] shadow-md"
             >
               <img className="h-[60px]" src={src} alt="heartbeat" />
-              <h3 className="font-primary text-2xl font-bold text-text-black">
+              <h3 className="font-primary text-2xl font-bold text-text-black md:group-hover:text-primary md:transition md:duration-500 ease-in">
                 <span>{title[0]}</span> <br /> <span>{title[1]}</span>
               </h3>
-              <p className="font-secondary text-lg font-medium text-text-grey">
+              <p className="font-secondary  text-lg font-medium text-text-grey">
                 {description}
               </p>
             </div>

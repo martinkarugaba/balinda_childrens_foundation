@@ -1,4 +1,4 @@
-:root {
+/*:root {
   --primary-color: #38bdf8;
   --off-white: #fafafa;
 }
@@ -6,4 +6,4 @@
 .active {
   background: var(--primary-color);
   color: var(--off-white);
-}
+}*/
