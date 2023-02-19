@@ -1,7 +1,7 @@
 import React from 'react';
 import Hero from '../components/Hero';
 import Banner from '../components/Banner';
-import WelcomeToBCF from '../components/WelcomeToBCF';
+import Introduction from '../components/Introduction';
 import Cards from '../components/Cards';
 import LatestCauses from '../components/LatestCauses';
 
@@ -10,9 +10,9 @@ const Home = () => {
     <>
       <Hero />
       <Banner />
-      <WelcomeToBCF />
+      <Introduction />
       <Cards />
-      <LatestCauses />  
+      <LatestCauses />
     </>
   );
 };
