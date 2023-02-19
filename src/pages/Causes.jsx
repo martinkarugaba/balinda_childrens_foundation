@@ -6,4 +6,4 @@ const Causes = () => {
   )
 }
 
-export default Causes
+export default Causes;
