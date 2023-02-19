@@ -21,10 +21,10 @@ const LatestCauses = () => {
           return (
             <article
               key={id}
-              className="border-1 h-auto flex-1 overflow-hidden rounded-xl border border-gray-200"
+              className="border-1 h-[1000px] flex-1 overflow-hidden rounded-xl border-gray-200"
             >
-              <div>
-                <img src={src} alt="children happy" />
+              <div className='h-[351px] border'>
+                <img src={src} className='h-[100%] w-[100%] object-cover' alt="children happy" />
               </div>
               <div className="p-[2rem]">
                 <h3 className="font-primary text-[1.8rem] font-bold leading-[43.5px] text-text-black">

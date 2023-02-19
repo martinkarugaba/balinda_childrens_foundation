@@ -1,27 +1,29 @@
-import girl from '../assets/img/girl_sitted_in_class.jpg';
+import girl from '../assets/img/girl-on-a-sewing-machine.jpg';
+import happyChildren from '../assets/img/children_with_book.jpg';
+import happyBoy from '../assets/img/children-happy-in-line-min-cropped.jpg';
 
 export const latestCauses = [
   {
     id: 0,
     src: girl,
-    title: 'Paying fees for kids beginning this term',
-    info: 'We plan to pay for 80 kids school fees beginning August 2023',
+    title: 'Sewing machines for young women',
+    info: 'Promoting economic empowerment for women, offering vocational skills and income-generating opportunities.',
     goal: '$2000',
     btn: 'donate now',
   },
   {
     id: 1,
-    src: girl,
-    title: 'Helping children with medical care',
-    info: 'We plan to pay for 80 kids school fees beginning August 2023',
+    src: happyChildren,
+    title: 'Learning materials for children',
+    info: 'Empowering children with education, providing tools for success and a brighter future.',
     goal: '$2000',
     btn: 'donate now',
   },
   {
     id: 2,
-    src: girl,
-    title: 'Paying fees for kids beginning this term',
-    info: 'We plan to pay for 80 kids school fees beginning August 2023',
+    src: happyBoy,
+    title: 'Medical care for children',
+    info: 'Ensuring access to healthcare for children, promoting well-being and healthy development.',
     goal: '$2000',
     btn: 'donate now',
   },

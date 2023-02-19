@@ -10,7 +10,7 @@ const Navbar = () => {
     <section className="font-secondary">
       <NavTopBar />
       {/* navbar */}
-      <div className="flex h-[80px] w-[100%] items-center justify-between bg-transparent px-[5rem] py-[3rem]">
+      <div className="flex h-[80px] w-[100%] items-center justify-between bg-off-white px-[5rem] py-[3rem]">
         <div className="flex items-center justify-start border-secondary leading-10">
           <img
             src={logo}
@@ -43,7 +43,7 @@ const Navbar = () => {
             })}
           </ul>
         </div>
-        <button className="cursor-pointer rounded-lg bg-primary px-8 py-3 font-semibold text-white ease-in md:transition md:duration-300 md:hover:scale-110">
+        <button className="cursor-pointer rounded-lg bg-off-white md:hover:bg-secondary md:hover:border-0 md:hover:text-off-white border-2 border-secondary px-8 py-3 font-semibold text-secondary ease-in md:transition md:duration-300 md:hover:scale-110">
           Donate
         </button>
       </div>
