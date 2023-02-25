@@ -10,7 +10,7 @@ const Navbar = () => {
     <section className="font-secondary">
       <NavTopBar />
       {/* navbar */}
-      <div className="flex h-[80px] w-[100%] items-center justify-between bg-off-white px-[5rem] py-[3rem]">
+      <div className="flex h-[80px] w-[100%] items-center justify-between bg-off-white px-[4rem] py-[3rem]">
         <div className="flex items-center justify-start border-secondary leading-10">
           <img
             src={logo}

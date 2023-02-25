@@ -7,8 +7,9 @@ export const latestCauses = [
     id: 0,
     src: girl,
     title: 'Sewing machines for young women',
-    info: 'Promoting economic empowerment for women, offering vocational skills and income-generating opportunities.',
-    goal: '$2000',
+    info: 'Promoting economic empowerment for young women by offering income-generating opportunities.',
+    goal: '$20,000',
+    percent: '50',
     btn: 'donate now',
   },
   {
@@ -16,7 +17,8 @@ export const latestCauses = [
     src: happyChildren,
     title: 'Learning materials for children',
     info: 'Empowering children with education, providing tools for success and a brighter future.',
-    goal: '$2000',
+    goal: '$50,000',
+    percent: '70',
     btn: 'donate now',
   },
   {
@@ -24,7 +26,8 @@ export const latestCauses = [
     src: happyBoy,
     title: 'Medical care for children',
     info: 'Ensuring access to healthcare for children, promoting well-being and healthy development.',
-    goal: '$2000',
+    goal: '$30,000',
+    percent: '65',
     btn: 'donate now',
   },
 ];

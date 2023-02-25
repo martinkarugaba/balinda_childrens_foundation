@@ -17,13 +17,13 @@ const LatestCauses = () => {
       </h2>
       <section className="mt-[2.5rem] flex items-center justify-between gap-x-6">
         {latestCauses.map((item) => {
-          const { id, src, title, info, goal, btn } = item;
+          const { id, src, title, info, goal, btn, percent } = item;
           return (
             <article
               key={id}
-              className="border-1 h-[1000px] flex-1 overflow-hidden rounded-xl border-gray-200"
+              className="border h-auto flex-1 overflow-hidden rounded-xl border-gray-200"
             >
-              <div className='h-[351px] border'>
+              <div className='h-[351px]'>
                 <img src={src} className='h-[100%] w-[100%] object-cover' alt="children happy" />
               </div>
               <div className="p-[2rem]">
@@ -33,7 +33,7 @@ const LatestCauses = () => {
                 <p className="mt-[1rem] font-secondary text-lg font-medium text-text-grey">
                   {info}
                 </p>
-                <Goal goal={goal} />
+                <Goal goal={goal} percent={percent} />
               </div>
               <button className="w-[100%] font-secondary capitalize bg-secondary hover:bg-primary rounded-xl text-xl px-[1rem] py-[1rem] text-white">
                 {btn}
