@@ -9,7 +9,7 @@ export const latestCauses = [
     title: 'Sewing machines for young women',
     info: 'Promoting economic empowerment for young women by offering income-generating opportunities.',
     goal: '$20,000',
-    percent: '50',
+    percent: '53',
     btn: 'donate now',
   },
   {
