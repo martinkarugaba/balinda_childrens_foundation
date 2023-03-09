@@ -9,34 +9,32 @@ import {
 } from 'react-icons/fa';
 import { GrYoutube } from 'react-icons/gr';
 
-const NavTopBar = () => {
-  return (
-    <section className="flex items-center justify-between bg-primary px-[4.5rem] py-[0.5rem] text-base font-normal text-white">
-      {/* address */}
-      <div className="flex items-center justify-center gap-x-4">
-        <div className="flex items-center justify-center gap-x-3">
-          <FaPhone size={12} />
-          <p>(+256) 123-456-123</p>
-        </div>
-        <div className="h-[15px] w-[1px] bg-off-white"></div>
-        <div className="flex items-center justify-center gap-x-3">
-          <FaEnvelope size={14} />
-          <p>email@example.com</p>
-        </div>
-        <div className="h-[15px] w-[1px] bg-off-white"></div>
-        <div className="flex items-center justify-center gap-x-3">
-          <FaHome size={15} />
-          <p>Dewi Street. 3456, Kampala, Uganda</p>
-        </div>
+const NavTopBar = () => (
+  <section className="hidden md:flex items-center justify-between bg-primary px-[5rem] py-[0.5rem] text-base font-normal text-white">
+    {/* address */}
+    <div className="flex items-center justify-center gap-x-4 ml-[0.7rem]">
+      <div className="flex items-center justify-center gap-x-3">
+        <FaPhone size={12} />
+        <p>(+256) 123-456-123</p>
       </div>
-      {/* icons */}
-      <div className="flex items-center justify-center gap-x-6">
-        <FaFacebookF size={14} />
-        <FaTwitter size={14} />
-        <GrYoutube size={14} />
+      <div className="h-[15px] w-[1px] bg-off-white" />
+      <div className="flex items-center justify-center gap-x-3">
+        <FaEnvelope size={14} />
+        <p>email@example.com</p>
       </div>
-    </section>
-  );
-};
+      <div className="h-[15px] w-[1px] bg-off-white" />
+      <div className="flex items-center justify-center gap-x-3">
+        <FaHome size={15} />
+        <p>Dewi Street. 3456, Kampala, Uganda</p>
+      </div>
+    </div>
+    {/* icons */}
+    <div className="flex items-center justify-center gap-x-6">
+      <FaFacebookF size={14} />
+      <FaTwitter size={14} />
+      <GrYoutube size={14} />
+    </div>
+  </section>
+);
 
 export default NavTopBar;

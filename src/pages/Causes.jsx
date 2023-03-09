@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
-const Causes = () => {
-  return (
-    <div>Causes</div>
-  )
-}
+const Causes = () => (
+  <div>Causes</div>
+);
 
 export default Causes;
